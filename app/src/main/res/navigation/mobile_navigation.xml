@@ -3,23 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_all_notes">
+    <fragment
+        android:id="@+id/nav_no_category"
+        android:name="com.hamada.mynotes.ui.nocategory.NoCategoryFragment"
+        android:label="No Category"
+        tools:layout="@layout/fragment_no_category"/>
+    <fragment
+        android:id="@+id/nav_work"
+        android:name="com.hamada.mynotes.ui.work.WorkFragment"
+        android:label="Work"
+        tools:layout="@layout/fragment_work"/>
+
+    <fragment
+        android:id="@+id/nav_all_notes"
+        android:name="com.hamada.mynotes.ui.allnotes.AllNotesFragment"
+        android:label="All Notes"
+        tools:layout="@layout/fragment_all_notes"/>
 
     <fragment
         android:id="@+id/nav_home"
         android:name="com.hamada.mynotes.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="Travel"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.hamada.mynotes.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="Personal"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.hamada.mynotes.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="Life"
         tools:layout="@layout/fragment_slideshow" />
+
 </navigation>

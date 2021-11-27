@@ -3,13 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable-v24/ic_baseline_event_note_24_blue.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable-v24/ic_baseline_event_note_24_green.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable-v24/ic_baseline_event_note_24_red.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable-v24/ic_baseline_event_note_24_yellow.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_baseline_event_note_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_baseline_event_note_24_55.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_baseline_event_note_24_blue.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_baseline_event_note_24_gray.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_baseline_event_note_24_red.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_baseline_event_note_24_yellow.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_menu_camera.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/ic_notepad.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/drawable/side_nav_bar.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/content_main.xml" value="0.25" />
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/fragment_all_notes.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/fragment_gallery.xml" value="0.10038610038610038" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/fragment_no_category.xml" value="0.25" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/fragment_work.xml" value="0.25" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/MyNotes/app/src/main/res/menu/main.xml" value="0.25" />
       </map>
     </option>
   </component>
