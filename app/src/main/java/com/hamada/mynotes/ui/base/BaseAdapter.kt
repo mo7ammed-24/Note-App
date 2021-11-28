@@ -1,4 +1,4 @@
-package com.hamada.personalnotesapp.ui.base
+package com.hamada.mynotes.ui.base
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

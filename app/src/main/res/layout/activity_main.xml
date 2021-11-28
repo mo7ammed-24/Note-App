@@ -29,5 +29,7 @@
             android:background="@color/Home_background_color"
             app:headerLayout="@layout/nav_header_main"
             app:menu="@menu/activity_main_drawer" />
+
+
     </androidx.drawerlayout.widget.DrawerLayout>
 </layout>

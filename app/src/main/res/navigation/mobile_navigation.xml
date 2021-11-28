@@ -23,20 +23,20 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.hamada.mynotes.ui.home.HomeFragment"
+        android:name="com.hamada.mynotes.ui.travel.TravelFragment"
         android:label="Travel"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_travel" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.hamada.mynotes.ui.gallery.GalleryFragment"
+        android:name="com.hamada.mynotes.ui.personal.PersonalFragment"
         android:label="Personal"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_personal" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.hamada.mynotes.ui.slideshow.SlideshowFragment"
+        android:name="com.hamada.mynotes.ui.life.LifeFragment"
         android:label="Life"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_life" />
 
 </navigation>

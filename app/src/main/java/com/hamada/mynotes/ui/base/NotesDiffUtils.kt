@@ -1,14 +1,14 @@
-package com.hamada.personalnotesapp.ui.base
+package com.hamada.mynotes.ui.base
 
 import androidx.recyclerview.widget.DiffUtil
 
-class NotesDiffUtils<T>(val movieOldList: List<T>, val movieNewList: List<T>) :
+class NotesDiffUtils<T>(val notesOldList: List<T>, val notesNewList: List<T>) :
     DiffUtil.Callback() {
-    override fun getOldListSize() = movieOldList.size
+    override fun getOldListSize() = notesOldList.size
 
-    override fun getNewListSize() = movieNewList.size
+    override fun getNewListSize() = notesNewList.size
 
-    override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int) =movieOldList[oldItemPosition]?.equals(movieNewList[newItemPosition])==true
+    override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int) =notesOldList[oldItemPosition]==notesNewList[newItemPosition]
 
     override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int) = true
 }

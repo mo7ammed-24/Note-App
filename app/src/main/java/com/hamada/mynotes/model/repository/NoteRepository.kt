@@ -1,7 +1,8 @@
 package com.hamada.mynotes.model.repository
 
 import com.hamada.mynotes.model.database.Notes
-import com.hamada.personalnotesapp.model.NotesDatabase.NotesDatabase
+import com.hamada.mynotes.model.database.NotesDatabase
+
 
 class NoteRepository {
 
@@ -13,5 +14,8 @@ class NoteRepository {
 
     fun getAllNotes()=dao.getAllNotes()
 
-    suspend fun getFilteredNotes(searchTerm:String)=dao.getGFiltered("%$searchTerm%")
+    suspend fun getFilteredNotes(searchTerm:String)=dao.getFilteredNotes("%$searchTerm%")
+
+    suspend fun getCategoryNotes(categoryTerm:String)=dao.getCategoryNotes(categoryTerm)
+
 }

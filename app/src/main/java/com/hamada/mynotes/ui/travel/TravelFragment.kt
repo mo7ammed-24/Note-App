@@ -1,24 +1,24 @@
-package com.hamada.mynotes.ui.nocategory
+package com.hamada.mynotes.ui.travel
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import androidx.lifecycle.ViewModel
 import com.hamada.mynotes.R
-import com.hamada.mynotes.databinding.FragmentNoCategoryBinding
+import com.hamada.mynotes.databinding.FragmentPersonalBinding
+import com.hamada.mynotes.databinding.FragmentTravelBinding
 import com.hamada.mynotes.ui.allnotes.AllNotesViewModel
 import com.hamada.mynotes.ui.allnotes.NotesAdapter
 import com.hamada.personalnotesapp.ui.base.BaseFragment
 
-class NoCategoryFragment:BaseFragment<FragmentNoCategoryBinding>(R.layout.fragment_no_category){
+
+class TravelFragment : BaseFragment<FragmentTravelBinding>(R.layout.fragment_travel){
     override val viewModel by activityViewModels<AllNotesViewModel>()
-    override val bindingInflater: (LayoutInflater, Int, ViewGroup?, Boolean) -> FragmentNoCategoryBinding
-        get() =DataBindingUtil::inflate
+    override val bindingInflater: (LayoutInflater, Int, ViewGroup?, Boolean) -> FragmentTravelBinding
+        get() = DataBindingUtil::inflate
 
     override fun setupView() {
-        viewModel.getCategoryNotes("No Category")
+        viewModel.getCategoryNotes("Travel")
         binding.recycler.adapter= NotesAdapter(mutableListOf(), viewModel)
     }
 

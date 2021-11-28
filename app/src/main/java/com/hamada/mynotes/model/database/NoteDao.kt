@@ -1,7 +1,10 @@
 package com.hamada.mynotes.model.database
 
 import androidx.room.*
-import kotlinx.coroutines.flow.Flow
+import io.reactivex.rxjava3.core.Observable
+
+import java.util.*
+import java.util.concurrent.Flow
 
 @Dao
 interface NoteDao {
@@ -16,9 +19,13 @@ interface NoteDao {
     suspend fun updateNote(note:Notes)
 
     @Query("SELECT * FROM NOTES_TABLE ORDER BY id DESC")
-    fun getAllNotes(): Flow<List<Notes>>
+    fun getAllNotes():Observable<List<Notes>>
 
     @Query("SELECT * FROM NOTES_TABLE WHERE description LIKE :searchTerm ORDER BY id DESC")
-    suspend fun getGFiltered(searchTerm:String):List<Notes>
+    suspend fun getFilteredNotes(searchTerm:String):List<Notes>
+
+
+    @Query("SELECT * FROM NOTES_TABLE WHERE category LIKE :categoryTerm ORDER BY id DESC")
+    suspend fun getCategoryNotes(categoryTerm:String):List<Notes>
 
 }

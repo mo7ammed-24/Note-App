@@ -1,4 +1,4 @@
-package com.hamada.personalnotesapp.model.NotesDatabase
+package com.hamada.mynotes.model.database
 
 import android.content.Context
 import androidx.room.Database
@@ -32,4 +32,6 @@ abstract class NotesDatabase:RoomDatabase(){
            return Room.databaseBuilder(context, NotesDatabase::class.java, DATABASE_NAME).build()
         }
     }
+
+
 }
